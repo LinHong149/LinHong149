@@ -36,22 +36,20 @@ Here are some of the technologies I work with:
 ### Programming Languages
 - Python
 - JavaScript
-- C#
+- C++
 
 ### Tools and Frameworks
 - React
 - Node.js
-- Docker
+- Next.js
 
 ### Other Skills
-- Data Analysis
-- Machine Learning
-- Cloud Services (AWS, GCP)
+- Figma UI/UX Desgin
+- Photoshop
 
 ### Hobbies
 - Baking
 - Coding
-- UI/UX Designing
 - Robotics
 
 
