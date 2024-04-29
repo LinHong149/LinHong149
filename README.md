@@ -3,19 +3,19 @@
 ## Featured Contributions
 Here are some projects I've contributed to:
 
-### Ingredify([https://github.com/user/repository1](https://github.com/dan-the-man639/Ingredify])
-- **Description**: Ingredify is a AI powered mobile app designed for food tracking and analysis. Users can snap photos of their meals to get nutrient information, create profiles, and receive personalized recommendations. It can also answer questions about meal ingredients and nutrient facts, making it a comprehensive tool for managing nutrition, and health goals
-- **My Contributions**: Designed the ui/ux in Figma and coded the front-end using React-Native.
+### [Ingredify](https://github.com/dan-the-man639/Ingredify)
+- **Description**: Ingredify is an AI-powered mobile app designed for food tracking and analysis. Users can snap photos of their meals to get nutrient information, create profiles, and receive personalized recommendations. It can also answer questions about meal ingredients and nutrient facts, making it a comprehensive tool for managing nutrition and health goals.
+- **My Contributions**: Designed the UI/UX in Figma and coded the front-end using React-Native.
 
-### [Flaim Brain]([https://github.com/user/repository2](https://github.com/Ri-Hong/FlaimBrain)
+### [Flaim Brain](https://github.com/Ri-Hong/FlaimBrain)
 - **Description**: FlaimBrain transcends the capabilities of standard chatbots. By allowing users to upload and scan files, this intelligent bot lends its expertise in summarizing notes, crafting flashcards, proposing study guides, and devising mock assessments—all based on the material you provide.
-- **My Contributions**: Worked with google cloud to add OCR capabilities into our application and helped with front-end with React.
+- **My Contributions**: Worked with Google Cloud to add OCR capabilities into our application and helped with the front-end with React.
 
-### [BillinBytes]([https://github.com/user/repository3](https://github.com/Ri-Hong/bill-in-bytes)
+### [BillinBytes](https://github.com/Ri-Hong/bill-in-bytes)
 - **Description**: BillinBytes is a practical application that takes the hassle out of managing paper receipts. It converts those pesky pieces of paper into convenient digital records, allowing you to effortlessly keep track of your expenses and handle tax filing like a responsible adult.
 - **My Contributions**: Designed the user interface in Figma and styled the application in React-Native.
 
-### [HealthWise]([https://github.com/user/repository4](https://github.com/jamesliangg/AI-Hackfest-HealthWise)
+### [HealthWise](https://github.com/jamesliangg/AI-Hackfest-HealthWise)
 - **Description**: HealthWise is a user-friendly application that serves as a one-stop solution for finding doctors and making informed healthcare choices. With HealthWise, users can effortlessly search for nearby doctors based on specialty, location, and availability. They can access detailed doctor profiles, including qualifications, experience, and patient reviews, to make confident decisions about their care.
 - **My Contributions**: As a Front-end Developer for HealthWise, I designed the user interface using Figma and implemented it with Vite.js and React. I focused on creating an intuitive and visually appealing front-end that enhances user experience and simplifies healthcare access.
 
