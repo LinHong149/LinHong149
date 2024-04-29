@@ -22,10 +22,10 @@ Here are some projects I've contributed to:
 ## My Repositories
 I also have several projects of my own, showcasing my abilities and interests in various areas of software development:
 
-1. **[InnerVoice](https://github.com/LinHong149/InnerVoice)** - A brief description of what this project is about.
-2. **[FTC 2024](https://github.com/LinHong149/robeartics-centerstage)** - A brief description of what this project is about.
-3. **[Contact Harvester](https://github.com/LinHong149/robeartics-contact-harvester)** - A brief description of what this project is about.
-4. **[Macaron Bakery E-commerce](https://github.com/LinHong149/tej3-website)** - A brief description of what this project is about.
+1. **[InnerVoice](https://github.com/LinHong149/InnerVoice)** - A hackathon project that utilizes OpenAI TTS and SST to provide advice given by different personality types.
+2. **[FTC 2024](https://github.com/LinHong149/robeartics-centerstage)** - The code for Robeartics 19500 FTC 2024 Centerstage season.
+3. **[Contact Harvester](https://github.com/LinHong149/robeartics-contact-harvester)** - As the Lead Programmer and Co-Captian, I created this application to aid our outreach team in finding contact info from potential sponsors.
+4. **[Macaron Bakery E-commerce](https://github.com/LinHong149/tej3-website)** - An e-commerce website I made for my TEJ3 assignment to learn MongoDB.
 
 Feel free to check out my projects and reach out if you have questions or want to collaborate!
 
