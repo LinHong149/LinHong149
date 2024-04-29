@@ -22,10 +22,12 @@ Here are some projects I've contributed to:
 ## My Repositories
 I also have several projects of my own, showcasing my abilities and interests in various areas of software development:
 
-1. **[InnerVoice](https://github.com/LinHong149/InnerVoice)** - A hackathon project that utilizes OpenAI TTS and SST to give people advice based on different personalities.
-2. **[FTC 2024](https://github.com/LinHong149/robeartics-centerstage)** - The code for Robeartics 19500 FTC 2024 centerstage season. 
-3. **[Contact Harvester](https://github.com/LinHong149/robeartics-contact-harvester)** - An application I developed as the Co-captain and Lead Programmer to aid our outreach team in automating the process of finding company info.
-4. **[Macaron Bakery E-commerce](https://github.com/LinHong149/tej3-website)** - An e-commerce website I built to learn MongoDB.
+1. **[My Repository 1](https://github.com/yourusername/myrepository1)** - A brief description of what this project is about.
+2. **[My Repository 2](https://github.com/yourusername/myrepository2)** - A brief description of what this project is about.
+3. **[My Repository 3](https://github.com/yourusername/myrepository3)** - A brief description of what this project is about.
+4. **[My Repository 4](https://github.com/yourusername/myrepository4)** - A brief description of what this project is about.
+
+Feel free to check out my projects and reach out if you have questions or want to collaborate!
 
 ## Skills and Technologies
 
@@ -36,10 +38,19 @@ Here are some of the technologies I work with:
 - JavaScript
 - C++
 
-### Tools and Frameworks
+### Frontend
 - React
-- Node.js
 - Next.js
+- HTML, CSS, JS
+- Tailwind
+- DaisyUI
+
+### Backend
+- Node.js
+- OpenAI TTS, SST, Text Generation, Image Generation
+- MongoDB
+- Flask
+- Python
 
 ### Other Skills
 - Figma UI/UX Desgin
