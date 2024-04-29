@@ -9,7 +9,7 @@ Here are some projects I've contributed to:
 
 ### [Flaim Brain](https://github.com/Ri-Hong/FlaimBrain)
 - **Description**: FlaimBrain transcends the capabilities of standard chatbots. By allowing users to upload and scan files, this intelligent bot lends its expertise in summarizing notes, crafting flashcards, proposing study guides, and devising mock assessments—all based on the material you provide.
-- **My Contributions**: Worked with Google Cloud to add OCR capabilities into our application and helped with the front-end with React.
+- **My Contributions**: Worked with Google Cloud to add OCR capabilities into our application and coded the front-end using React.
 
 ### [BillinBytes](https://github.com/Ri-Hong/bill-in-bytes)
 - **Description**: BillinBytes is a practical application that takes the hassle out of managing paper receipts. It converts those pesky pieces of paper into convenient digital records, allowing you to effortlessly keep track of your expenses and handle tax filing like a responsible adult.
@@ -53,7 +53,7 @@ Here are some of the technologies I work with:
 - Python
 
 ### Other Skills
-- Figma UI/UX Desgin
+- Figma UI/UX Design
 - Photoshop
 
 ### Hobbies
