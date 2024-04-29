@@ -22,9 +22,9 @@ Here are some projects I've contributed to:
 ## My Repositories
 I also have several projects of my own, showcasing my abilities and interests in various areas of software development:
 
-1. **[InnerVoice](https://github.com/yourusername/myrepository1)** - A brief description of what this project is about.
-2. **[FTC 2024](https://github.com/yourusername/myrepository2)** - A brief description of what this project is about.
-3. **[Contact Harvester](https://github.com/yourusername/myrepository3)** - A brief description of what this project is about.
+1. **[InnerVoice](https://github.com/LinHong149/InnerVoice)** - A brief description of what this project is about.
+2. **[FTC 2024](https://github.com/LinHong149/robeartics-centerstage)** - A brief description of what this project is about.
+3. **[Contact Harvester](https://github.com/LinHong149/robeartics-contact-harvester)** - A brief description of what this project is about.
 4. **[Macaron Bakery E-commerce](https://github.com/LinHong149/tej3-website)** - A brief description of what this project is about.
 
 Feel free to check out my projects and reach out if you have questions or want to collaborate!
