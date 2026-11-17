@@ -1,78 +1,37 @@
-### Hi there 👋, Welcome to My GitHub Profile!
+# Lin Hong
 
-## Featured Contributions
-Here are some projects I've contributed to:
+Computer Science (Co-op) at the University of Waterloo. I work on build and test infrastructure, backend services, and the agents that run on top of them.
 
-### [Ingredify](https://github.com/dan-the-man639/Ingredify)
-- **Description**: Ingredify is an AI-powered mobile app designed for food tracking and analysis. Users can snap photos of their meals to get nutrient information, create profiles, and receive personalized recommendations. It can also answer questions about meal ingredients and nutrient facts, making it a comprehensive tool for managing nutrition and health goals.
-- **My Contributions**: Designed the UI/UX in Figma and coded the front-end using React-Native.
+Most recently a Software Engineer Intern at **Block (Cash App)**, where I led Cash App Web's org-wide migration from Cypress to Playwright: 729 spec files audited, 16 suites taken to 1:1 parity, $250,000/yr in subscription cost removed. I built the shared test harness and the CI pipelines every migrated suite runs on, cut CI machine time 33% per build (9,719 to 6,499 job-seconds), and dropped test startup from 16-40s to 0.8s. When I measured that review, not authoring, was the bottleneck (2-4 hours to write a suite against a 41-hour median to merge), I built a 12-lens AI review pack that confirmed 176 findings and cut reviews to minutes, then encoded the method into an agent skill two other teams took for their own repos.
 
-### [Flaim Brain](https://github.com/Ri-Hong/FlaimBrain)
-- **Description**: FlaimBrain transcends the capabilities of standard chatbots. By allowing users to upload and scan files, this intelligent bot lends its expertise in summarizing notes, crafting flashcards, proposing study guides, and devising mock assessments—all based on the material you provide.
-- **My Contributions**: Worked with Google Cloud to add OCR capabilities into our application and coded the front-end using React.
+Ten hackathon wins. MLH Top 50.
 
-### [BillinBytes](https://github.com/Ri-Hong/bill-in-bytes)
-- **Description**: BillinBytes is a practical application that takes the hassle out of managing paper receipts. It converts those pesky pieces of paper into convenient digital records, allowing you to effortlessly keep track of your expenses and handle tax filing like a responsible adult.
-- **My Contributions**: Designed the user interface in Figma and styled the application in React-Native.
+---
 
-### [HealthWise](https://github.com/jamesliangg/AI-Hackfest-HealthWise)
-- **Description**: HealthWise is a user-friendly application that serves as a one-stop solution for finding doctors and making informed healthcare choices. With HealthWise, users can effortlessly search for nearby doctors based on specialty, location, and availability. They can access detailed doctor profiles, including qualifications, experience, and patient reviews, to make confident decisions about their care.
-- **My Contributions**: As a Front-end Developer for HealthWise, I designed the user interface using Figma and implemented it with Vite.js and React. I focused on creating an intuitive and visually appealing front-end that enhances user experience and simplifies healthcare access.
+## Selected projects
 
-## My Repositories
-I also have several projects of my own, showcasing my abilities and interests in various areas of software development:
+| Project | What it does | Stack |
+|---|---|---|
+| [**Chess Bot**](https://github.com/LinHong149/chesshacks) | AlphaZero-style engine. Policy-value network trained by self-play, neural priors guiding MCTS, distributed training on A100/H100 via Modal. ~1600 Elo against classical engines. | PyTorch, Modal, Python |
+| [**Sherlock Combs**](https://github.com/LinHong149/cxc) | Turns investigative PDF dumps into an evidence-cited relationship graph. DOJ scrape to Snowflake, pdfplumber parsing, spaCy NER, GPT-4o summarization, Neo4j graph, timeline UI where every edge links to its source snippet. Built in 24 hours. | Python, spaCy, GPT-4o, Neo4j, Snowflake, Next.js |
+| [**QuickCart**](https://github.com/nuthanan06/deltahacks) | Camera-based grocery checkout with no barcodes. YOLOv8 detection into CLIP (ViT-B-32) embeddings into FAISS retrieval, running on live video at 12 FPS. | YOLOv8, CLIP, FAISS, Flask, React Native |
+| [**The Badge Knows**](https://github.com/abigail-liang/hack-the-north-2026-badge) | Replaced the Hack the North 2026 badge firmware in 36 hours so it points you to a teammate. Range by 802.11mc Fine Timing Measurement, bearing recovered with no compass by fitting the body-shadow RSSI dip from a 360 spin. Semi-finalist. | C, ESP-IDF, FreeRTOS, ESP32-C3 |
+| [**Navi**](https://github.com/dan-the-man639/Navi) | Gamified platform collecting supervised computer-use data for training Computer Use Agents, built after seeing how hard CUA training data is to source. | Next.js, TypeScript, React |
+| [**job-ops**](https://github.com/LinHong149/job-ops) | Chrome extension and MCP server that fills application forms, classifies inbound job mail from Gmail, and writes status back to a Notion database. | MCP, Node.js, Gmail API, Notion API |
+| [**Muffle Bubble**](https://github.com/LinHong149/noiseCancel) | Room-scale active noise cancellation. Adaptive filtering with secondary-path identification; cut end-to-end latency from ~200ms to ~10ms, the threshold where cancellation starts working. Hardware Track winner, TechNova 2025. | Python, NumPy, SciPy, DSP |
+| [**Lofied**](https://github.com/LinHong149/Lofied) | Converts Spotify playlists into lo-fi tracks through a source-separation and DSP pipeline, and transcribes them to sheet music. Best Solo Hack and Top 6 Overall, JamHacks 2025. | Python, torchaudio, Pedalboard, Basic Pitch |
+| [**HomeLab**](https://github.com/LinHong149/linhong) | Self-hosted Linux server running Dockerized Node apps behind Nginx and Cloudflare, with PM2 process management and HTTPS reverse proxying. | Linux, Docker, Nginx, Cloudflare, PM2 |
 
-1. **[InnerVoice](https://github.com/LinHong149/InnerVoice)** - A hackathon project that utilizes OpenAI TTS and SST to provide advice given by different personality types.
-2. **[FTC 2024](https://github.com/LinHong149/robeartics-centerstage)** - The code for Robeartics 19500 FTC 2024 Centerstage season.
-3. **[Contact Harvester](https://github.com/LinHong149/robeartics-contact-harvester)** - As the Lead Programmer and Co-Captian, I created this application to aid our outreach team in finding contact info from potential sponsors.
-4. **[Macaron Bakery E-commerce](https://github.com/LinHong149/tej3-website)** - An e-commerce website I made for my TEJ3 assignment to learn MongoDB.
+## What I work with
 
-Feel free to check out my projects and reach out if you have questions or want to collaborate!
+**Infrastructure** Terraform, AWS (S3, IAM, PrivateLink, Secrets Manager), Docker, Buildkite, GitHub Actions, Nginx, Linux
 
-## Skills and Technologies
+**Backend** Python, Go, Java, TypeScript, C++, FastAPI, Flask, Node.js, PostgreSQL, Redis, MongoDB, SQS
 
-Here are some of the technologies I work with:
+**Testing and observability** Playwright, Cypress, Vitest, Argos CI, Datadog, Snowflake, time-matched A/B benchmarking
 
-### Programming Languages
-- Python
-- JavaScript
-- C++
+**AI and ML** PyTorch, YOLOv8, CLIP, FAISS, spaCy, Modal, LLM agent skills and workflows, multi-agent review automation, MCP servers
 
-### Frontend
-- React
-- Next.js
-- HTML, CSS, JS
-- Tailwind
-- DaisyUI
+## Reach me
 
-### Backend
-- Node.js
-- OpenAI TTS, SST, Text Generation, Image Generation
-- MongoDB
-- Flask
-- Python
-
-### Other Skills
-- Figma UI/UX Design
-- Photoshop
-
-### Hobbies
-- Baking
-- Coding
-- Robotics
-
-
-<!--
-**LinHong149/LinHong149** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...  
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[LinkedIn](https://linkedin.com/in/linhongdev) · linlin.hong1@gmail.com
