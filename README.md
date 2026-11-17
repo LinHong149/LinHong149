@@ -1,10 +1,14 @@
 # Lin Hong
 
-Computer Science (Co-op) at the University of Waterloo. I work on build and test infrastructure, backend services, and the agents that run on top of them.
+Computer Science (Co-op) at the University of Waterloo. My three main interests are CI, cloud infrastructure, and AI systems.
 
-Most recently a Software Engineer Intern at **Block (Cash App)**, where I led Cash App Web's org-wide migration from Cypress to Playwright: 729 spec files audited, 16 suites taken to 1:1 parity, $250,000/yr in subscription cost removed. I built the shared test harness and the CI pipelines every migrated suite runs on, cut CI machine time 33% per build (9,719 to 6,499 job-seconds), and dropped test startup from 16-40s to 0.8s. When I measured that review, not authoring, was the bottleneck (2-4 hours to write a suite against a 41-hour median to merge), I built a 12-lens AI review pack that confirmed 176 findings and cut reviews to minutes, then encoded the method into an agent skill two other teams took for their own repos.
+Most recently a Software Engineer Intern at **Block (Cash App)**, where I led the Cash App Web team's CI migration from Cypress to Playwright, saving the company $250,000/year. I built and optimized test harnesses using Buildkite and Docker, cutting test startup time from 40s to under 10s. I shipped across the company's repos in TypeScript, React, Java and Terraform, and provisioned AWS with S3, IAM and a PrivateLink path from CI runners to an internal service.
 
-Ten hackathon wins. MLH Top 50.
+To speed up the migration I built an agent system that runs the tests on every change and compiles the evidence behind it into one place for review, bringing review time from a 10-hour median to 1 hour. The agent was packaged and sent to two other teams for internal use, and it took a project scoped at six months down to two.
+
+I also set up the web's observability, instrumenting user journeys into Datadog, Snowflake and Postgres, which unblocked Cash App Web's move to continuous deployment.
+
+I have been to over 40 hackathons and won ten, including Best Use of Terraform at Hack the North 2024, and am part of the Major League Hacking Top 50.
 
 ---
 
@@ -12,10 +16,10 @@ Ten hackathon wins. MLH Top 50.
 
 | Project | What it does | Stack |
 |---|---|---|
-| [**Chess Bot**](https://github.com/LinHong149/chesshacks) | AlphaZero-style engine. Policy-value network trained by self-play, neural priors guiding MCTS, distributed training on A100/H100 via Modal. ~1600 Elo against classical engines. | PyTorch, Modal, Python |
+| [**Chess Bot**](https://github.com/LinHong149/chesshacks) | AlphaZero chess engine built from scratch. One network scores the position and ranks the moves, a search uses those rankings to decide where to look, and the engine improves by playing itself. Trained on GPUs through Modal. | PyTorch, Modal, Python |
 | [**Sherlock Combs**](https://github.com/LinHong149/cxc) | Turns investigative PDF dumps into an evidence-cited relationship graph. DOJ scrape to Snowflake, pdfplumber parsing, spaCy NER, GPT-4o summarization, Neo4j graph, timeline UI where every edge links to its source snippet. Built in 24 hours. | Python, spaCy, GPT-4o, Neo4j, Snowflake, Next.js |
-| [**QuickCart**](https://github.com/nuthanan06/deltahacks) | Camera-based grocery checkout with no barcodes. YOLOv8 detection into CLIP (ViT-B-32) embeddings into FAISS retrieval, running on live video at 12 FPS. | YOLOv8, CLIP, FAISS, Flask, React Native |
-| [**The Badge Knows**](https://github.com/abigail-liang/hack-the-north-2026-badge) | Replaced the Hack the North 2026 badge firmware in 36 hours so it points you to a teammate. Range by 802.11mc Fine Timing Measurement, bearing recovered with no compass by fitting the body-shadow RSSI dip from a 360 spin. Semi-finalist. | C, ESP-IDF, FreeRTOS, ESP32-C3 |
+| [**QuickCart**](https://github.com/nuthanan06/deltahacks) | Grocery checkout that prices a cart from camera video. YOLOv8 detects items, CLIP embeds them, FAISS matches against a product index. Runs live at 12 frames per second. | YOLOv8, CLIP, FAISS, Flask, React Native |
+| [**The Badge Knows**](https://github.com/abigail-liang/hack-the-north-2026-badge) | Rewrote the Hack the North 2026 event badge's locked firmware in 36 hours so it acts like Find My for people in the venue. Distance comes from timing WiFi signals; direction from spinning in a circle while the badge reads the dip your body makes in the signal. Semi-finalist. | C, ESP-IDF, FreeRTOS, ESP32-C3 |
 | [**Navi**](https://github.com/dan-the-man639/Navi) | Gamified platform collecting supervised computer-use data for training Computer Use Agents, built after seeing how hard CUA training data is to source. | Next.js, TypeScript, React |
 | [**job-ops**](https://github.com/LinHong149/job-ops) | Chrome extension and MCP server that fills application forms, classifies inbound job mail from Gmail, and writes status back to a Notion database. | MCP, Node.js, Gmail API, Notion API |
 | [**Muffle Bubble**](https://github.com/LinHong149/noiseCancel) | Room-scale active noise cancellation. Adaptive filtering with secondary-path identification; cut end-to-end latency from ~200ms to ~10ms, the threshold where cancellation starts working. Hardware Track winner, TechNova 2025. | Python, NumPy, SciPy, DSP |
